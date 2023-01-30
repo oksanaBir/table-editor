@@ -6,7 +6,7 @@ import ItemsList from './components/ItemsList';
 
 const MainPage = () => {
   const [items, setItems] = useState(initialItems);
-  JSON.stringify(initialItems);
+  console.log(items);
 
   return (
     <Container sx={{ pt: 5, textAlign: 'left' }}>
